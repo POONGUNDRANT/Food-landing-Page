@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Qwigley&display=swap");
+.body {
+  all: unset;
+  input {
+    outline: unset;
+  }
+}
+.qwigley-regular {
+  font-family: "Qwigley", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.color-primary-light {
+  color: rgba(255, 179.14, 1) !important;
+}
+.color-primary-dark {
+  color: rgba(241, 114.4, 1) !important;
+}
+.color-white {
+  color: #fff !important;
+}
+.bg-primary-light {
+  background: rgba(255, 179, 14, 1) !important;
+}
+.bg-primary-dark {
+  background: rgba(241, 114, 40, 1) !important;
+}
+.bg-primary-subtle {
+  background: rgba(241, 114, 40, 0.1) !important;
+}
+.bg-gray {
+  background: rgba(128, 128, 128, 0.1) !important;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  margin: unset;
+  font-size: 4rem;
+}
+.location {
+  font-weight: bolder;
+}
+.btn {
+  background: none;
+  border: 2px solid black;
+  padding: 0.25em 0.5em;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: medium;
+}
+
+.login-btn {
+  display: flex;
+  align-items: center;
+  padding: 0.5em 1em;
+  border-color: rgba(255, 179, 14, 1);
+}
+.btn-group {
+  align-items: center;
+  display: flex;
+  gap: 0.5em;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65vh;
+  opacity: 0.85;
+  gap: 10px;
+}
+.brand-text {
+  color: #fff;
+  font-size: 5em;
+  margin: unset;
+}
+.option-menu {
+  width: 45vw;
+}
+.options {
+  display: flex;
+  background-color: #fff;
+  padding: 1rem;
+  font-size: 1.5em;
+  align-items: center;
+  gap: 10px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+.location-input {
+  background-color: #fff;
+  display: flex;
+  padding: 0.5rem;
+  gap: 10px;
+  align-items: center;
+  input[type="text"] {
+    flex-grow: 1;
+  }
+}
+.banner-img {
+  transform: scale(0.75);
+}
+.border-none {
+  padding: 5px;
+  border: none;
+}
+.gap {
+  display: flex;
+  gap: 10px;
+}
+
+.find-btn bg {
+  font-size: 1em !important;
+  font-weight: lighter !important;
+  padding: 0.5em 1em;
+}
